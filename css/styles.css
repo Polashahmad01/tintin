@@ -8,6 +8,7 @@
 body {
   background: url("../img/special (2).png") repeat center center;
   line-height: 1.6rem;
+  font-family: "Ubuntu", sans-serif;
 }
 
 a {
@@ -42,8 +43,6 @@ ul {
 #main-navbar h1 {
   font-weight: 900;
   font-size: 2rem;
-  color: #fff;
-  font-family: "Ubuntu", sans-serif;
   color: #e8c522;
   letter-spacing: 0.13rem;
 }
@@ -82,7 +81,6 @@ ul {
   border: none;
   -webkit-transition: all 0.3s ease-in;
   transition: all 0.3s ease-in;
-  font-family: "Ubuntu", sans-serif;
 }
 
 #main-navbar ul li a:hover {
@@ -120,6 +118,59 @@ ul {
 }
 
 #main-navbar .social a:hover {
+  color: #e8c522;
+}
+
+#kids {
+  color: #fff;
+  margin-top: 4.5rem;
+  font-weight: 900;
+}
+
+#kids .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.2rem;
+  background: url("../img/1.jpg") no-repeat center center/cover;
+  height: 100vh;
+  border-radius: 3%;
+}
+
+#kids .card .item {
+  margin-top: 12rem;
+  margin-left: 3rem;
+}
+
+#kids .card .item h1 {
+  font-size: 5rem;
+  line-height: 5.5rem;
+  margin-bottom: 2rem;
+}
+
+#kids .card .item h1 span {
+  display: block;
+}
+
+#kids .card .item p {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+#kids .card .item .btn {
+  display: inline-block;
+  background: #e8c522;
+  padding: 0.7rem 1.8rem;
+  border-radius: 30px;
+  border: 6px solid #fdfbf0;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#kids .card .item .btn:hover {
+  background: #fdfbf0;
+  border-color: #e8c522;
   color: #e8c522;
 }
 /*# sourceMappingURL=styles.css.map */
