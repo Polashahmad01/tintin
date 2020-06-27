@@ -173,4 +173,232 @@ ul {
   border-color: #e8c522;
   color: #e8c522;
 }
+
+#episode {
+  color: #fff;
+  margin-top: 5rem;
+}
+
+#episode .wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+#episode .wrap div {
+  padding-top: 1rem;
+}
+
+#episode .wrap div h2 {
+  font-size: 2.5rem;
+  letter-spacing: 0.1rem;
+}
+
+#episode .wrap div .fas {
+  font-size: 2rem;
+  margin: 0 2rem;
+  background: #e8c524;
+  padding: 0.5rem 1rem;
+  border-radius: 50%;
+  text-align: center;
+  border: 6px solid #fefbf2;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#episode .wrap div .fas:hover {
+  background: #fefbf2;
+  border-color: #e8c524;
+  color: #e8c524;
+}
+
+#episode .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[3];
+      grid-template-columns: repeat(3, 1fr);
+  grid-gap: 1.2rem;
+  margin-top: 18rem;
+}
+
+#episode .card .items {
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 3px solid #b0beff;
+  background: #304cd0;
+  border-radius: 10px;
+  -webkit-transform: skewY(-3deg);
+          transform: skewY(-3deg);
+  position: relative;
+}
+
+#episode .card .items img {
+  display: block;
+  margin: auto;
+  padding-bottom: 1rem;
+  margin-top: -14rem;
+}
+
+#episode .card .items div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 0 1rem;
+}
+
+#episode .card .items div p {
+  margin: 0.5rem 0;
+}
+
+#episode .card .items div p i {
+  background: #ba9e1b;
+  padding: 0.3rem 0.5rem;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#episode .card .items div p:last-child {
+  background: none;
+}
+
+#episode .card .items:first-child {
+  background: #e8c522;
+}
+
+#people {
+  color: #fff;
+  margin-top: 5rem;
+}
+
+#people .card {
+  background: url("../img/4.jpg") no-repeat center center/cover;
+  height: 100vh;
+  border-radius: 3%;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.2rem;
+}
+
+#people .card .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#people .card .item h2 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+#people .card .item p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+#people .card .item .btn {
+  display: inline-block;
+  background: #e8c522;
+  padding: 0.7rem 1.8rem;
+  border-radius: 30px;
+  border: 6px solid #fdfbf0;
+  width: 32%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#people .card .item .btn:hover {
+  background: #fdfbf0;
+  border-color: #e8c522;
+  color: #e8c522;
+}
+
+#friend {
+  margin-top: 10rem;
+  color: #fff;
+}
+
+#friend .card {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[2];
+      grid-template-columns: repeat(2, 1fr);
+  grid-gap: 1.2rem;
+}
+
+#friend .card .item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-line-pack: center;
+      align-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+#friend .card .item img {
+  width: 100%;
+}
+
+#friend .card .item h2 {
+  font-size: 3rem;
+  line-height: 3.5rem;
+  margin-bottom: 2rem;
+}
+
+#friend .card .item p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+}
+
+#friend .card .item .btn {
+  display: inline-block;
+  background: #e8c522;
+  padding: 0.7rem 1.8rem;
+  border-radius: 30px;
+  border: 6px solid #fdfbf0;
+  width: 36%;
+  -webkit-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
+}
+
+#friend .card .item .btn:hover {
+  background: #fdfbf0;
+  border-color: #e8c522;
+  color: #e8c522;
+}
 /*# sourceMappingURL=styles.css.map */
