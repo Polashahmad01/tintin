@@ -1,5 +1,113 @@
-$color: red;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  background: red;
+  background: url("../img/special\ \(2\).png") repeat center center;
+  line-height: 1.6rem;
+  font-family: font-family: "Ubuntu", sans-serif;;
 }
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+// Utitiles
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 0 1rem;
+  overflow: hidden;
+}
+
+// Navigation
+#main-navbar {
+  display: flex;
+  padding-top: 1.3rem;
+  justify-content: space-between;
+  align-items: center;
+
+  h1 {
+    font-weight: 900;
+    font-size: 2rem;
+    color: #e8c522;
+    letter-spacing: 0.13rem;
+  }
+
+  ul {
+    display: flex;
+    padding: 0.2rem;
+    background: #e8c522;
+    border-radius: 30px;
+
+    li {
+      padding: 0.5rem 1.5rem;
+      background: #3d5fff;
+      box-shadow: 1px 1px 0px #e8c522;
+      transition: all 0.3s ease-in;
+
+      &:first-child {
+        border-top-left-radius: 30px;
+        border-bottom-left-radius: 30px;
+      }
+
+      &:last-child {
+        border-top-right-radius: 30px;
+        border-bottom-right-radius: 30px;
+      }
+
+      a {
+        text-transform: uppercase;
+        font-weight: 500;
+        border: none;
+        transition: all 0.3s ease-in;
+
+        &:hover {
+          color: #333;
+        }
+      }
+
+      &:hover {
+        background: #e8c522;
+        border: none;
+      }
+    }
+  }
+
+  .social {
+    a {
+      margin-right: 1.5rem;
+      text-transform: uppercase;
+      font-weight: bold;
+      transition: all 0.3s ease-in;
+
+      &:last-child {
+        margin-left: 1rem;
+        background: #e8c522;
+        padding: 0.7rem 1rem;
+        border-radius: 40px;
+        border: 4px solid #faf7e7;
+        box-shadow: inset 0px 2px 1px 0px #99893f,
+          inset 0px -2px 1px 0px #99893f;
+
+        &:hover {
+          background: #faf7e7;
+          box-shadow: none;
+          color: #e8c522;
+        }
+      }
+
+      &:hover {
+        color: #e8c522;
+      }
+    }
+  }
+}
+
