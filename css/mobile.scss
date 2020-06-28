@@ -1,0 +1,138 @@
+// Navigation
+#main-navbar {
+  display: none;
+}
+
+// Section: Kids
+#kids {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+    background: url("../img/1.jpg") no-repeat center center/cover;
+    border-radius: 10px;
+  }
+}
+
+// Section: Episode
+#episode {
+  .wrap {
+    flex-direction: column;
+    text-align: center;
+
+    h2 {
+      margin-bottom: 1rem;
+    }
+  }
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+
+    .items {
+      margin-bottom: 15rem;
+
+      &:last-child {
+        margin-bottom: 4rem;
+      }
+    }
+  }
+}
+
+// Section: People
+#people {
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+    border-radius: 10px;
+
+    .item {
+      h2 {
+        margin-top: -12rem;
+        text-align: center;
+        font-size: 2.5rem;
+      }
+
+      p {
+        text-align: center;
+        margin-bottom: -5rem;
+      }
+
+      .btn {
+        width: 52%;
+        margin: auto;
+      }
+    }
+  }
+}
+
+// Section: Friend
+#friend {
+  margin-top: 5rem;
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+
+    .item {
+      h2 {
+        text-align: center;
+        font-size: 2.5rem;
+        line-height: 2.8rem;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .btn {
+        width: 57%;
+        margin: auto;
+        margin-bottom: 1rem;
+      }
+    }
+  }
+}
+
+// Section: Stay
+#stay {
+  margin: 5rem 0;
+  height: auto;
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+
+    .items {
+      h2 {
+        font-size: 2.5rem;
+        margin: 1rem 0;
+        line-height: 2.5rem;
+      }
+
+      input {
+        padding: 1.4rem 1.5rem;
+      }
+    }
+  }
+}
+
+// Section: Footer
+#main-footer {
+  margin-top: 0;
+
+  .card {
+    grid-template-columns: repeat(1, 1fr);
+
+    .item {
+      p {
+        display: none;
+      }
+
+      ul {
+        justify-content: center;
+        align-items: center;
+      }
+    }
+  }
+}
+
+@media (min-height: 568px) {
+  body {
+    display: none;
+  }
+}
