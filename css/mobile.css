@@ -122,10 +122,4 @@
       -ms-flex-align: center;
           align-items: center;
 }
-
-@media (min-height: 568px) {
-  body {
-    display: none;
-  }
-}
 /*# sourceMappingURL=mobile.css.map */
